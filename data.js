@@ -1,11 +1,20 @@
 
 
- var add ="Shubham" ;
+  function test () {
+  
+    let a= 20 ;
 
- var sum ="Nikumbh";
+   let fun=  function add (){
 
- var asd = add.charAt(1);
+      return a ;
+    
+    }
+    
+    return add();
 
- console.log(asd);
 
- let sub = "Shubham Nikumbh" ;
+  }
+
+  let inner = test();
+ console.log(fun)
+
